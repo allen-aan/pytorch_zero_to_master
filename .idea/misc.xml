@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.10.14 (sftp://allen@192.168.1.209:22/home/allen/anaconda3/envs/myproject/bin/python3)" project-jdk-type="Python SDK" />
+  <component name="SshConsoleOptionsProvider">
+    <option name="myEncoding" value="UTF-8" />
+    <option name="myConnectionType" value="REMOTE_SDK" />
+    <option name="myConnectionId" value="allen@192.168.1.209:22/home/allen/anaconda3/envs/myproject/bin/python3" />
+  </component>
+</project>
