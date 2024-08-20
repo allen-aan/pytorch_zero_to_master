@@ -19,6 +19,10 @@ import requests
 # Walk through an image classification directory and find out how many files (images)
 # are in each subdirectory.
 import os
+def accury_fn(y_ture, y_pred):
+    correct =  torch.eq(y_ture, y_pred).sum().item()
+    acc = (correct/len(y_ture)) * 100
+    return acc
 
 def walk_through_dir(dir_path):
     """
